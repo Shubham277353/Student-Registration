@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="/student web/style1.css">
+</head>
+<body>
+    <div><h1>Sign Up</h1></div>
+    <form action="action.php">
+        <label for="first">First Name : </label>
+        <input type="text" id="first" name="fname">
+        <label for="Last">Last Name : </label>
+        <input type="text" id="Last" name="Lname"><br><br>
+        <label for="enroll">Enrollment Number : </label>
+        <input type="number" id="enroll" name="Enum"><br><br>
+        <label for="Pcode">Programme : </label>
+        <select name="programme" id="pcode">
+            <option value="BCA">BCA</option>
+            <option value="MCA">MCA</option>
+            <option value="MBA">MBA</option>
+            <option value="BCOM">BCOM</option>
+            <option value="B.TECH">B.TECH</option>
+            <option value="BA">BA</option>
+        </select>
+        <br><br>
+        <label for="dob">Date of Birth : </label>
+        <input type="date" id="dob" name="date">
+        <br><br>
+        <label for="fname">Fathers Name : </label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="Mname">Mothers Name : </label>
+        <input type="text" id="Mname" name="Mname"><br><br>
+        <label for="email">Email : </label>
+        <input type="email" id="email" name="email" placeholder="abc@example.com">
+        <label for="pword"> Password : </label>
+        <input type="password" id="pword" name="password"><br><br>
+        <label for="Pnum">Phone Number : </label>
+        <input type="number" id="pnum" name="pno."><br><br>
+        <label for="Tell us About Yourself : ">Tell us About Yourself : </label><br>
+        <textarea id="Tell us About Yourself : " name="tell_us" rows="5" cols="40"></textarea><br><br>
+        <input style="text-align: center;" type="Submit" id="submit">
+    </form>
+
+    <div id="back"><a href="/student web/index.html">Back to Home Page</a></div>
+    
+</body>
+</html>

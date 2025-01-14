@@ -1,0 +1,60 @@
+main{
+    background-color: aquamarine;
+}
+header{
+    background-color: rgb(64, 64, 204);
+}
+.aboutus{
+    background-color: beige;
+}
+hr{
+    background-color: black;
+    height: 1px;
+}
+#about{
+    font-size: large;
+}
+footer{
+    background-color: yellow;
+}
+h1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    color: rgb(164, 222, 222);
+    font-size: large;
+}
+h3{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+#banner{
+    font-size:24px;
+    text-align: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   
+    font-weight: bolder;
+}
+a:visited{
+    color: green;
+}
+a:hover{
+    color: white;
+}
+a:active{
+    color: red;
+}
+ul{
+    font-size: 18px;
+    font-style: normal;
+    text-decoration: underline;
+    
+}
+div{
+    font-size: larger;
+    padding: 30px;
+}
+p{
+    font-size: large;
+}
